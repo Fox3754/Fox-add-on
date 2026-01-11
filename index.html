@@ -1,63 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>LastBreath Mods</title>
-  <style>
-    body {
-      background: #0f0f0f;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
+<meta charset="UTF-8">
+<title>LastBreath Mod Hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    h1 {
-      margin-top: 20px;
-    }
+<style>
+body {
+  margin: 0;
+  background: #0f0f0f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
 
-    .card {
-      background: #1c1c1c;
-      width: 300px;
-      margin: 20px auto;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #000;
-    }
+header {
+  padding: 20px;
+  text-align: center;
+  background: #161616;
+  border-bottom: 1px solid #222;
+}
 
-    .card img {
-      width: 100%;
-      border-radius: 8px;
-    }
+header h1 {
+  margin: 0;
+  color: #4caf50;
+}
 
-    button {
-      background: limegreen;
-      border: none;
-      padding: 10px;
-      width: 100%;
-      font-size: 16px;
-      border-radius: 6px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
+.container {
+  padding: 15px;
+}
 
-    button:hover {
-      background: #4cff4c;
-    }
-  </style>
+.card {
+  background: #1b1b1b;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.download {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #4caf50;
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.download:hover {
+  background: #66ff66;
+}
+</style>
 </head>
 
 <body>
 
-<h1>Fox Mods</h1>
-<p>Shader & Add-on Minecraft Bedrock</p>
+<header>
+  <h1>Fox Mod Hub</h1>
+  <p>Shader • Add-on • Mod MC Bedrock</p>
+</header>
 
-<div class="card">
-  <img src="shader-ultralight.png">
-  <h2>Ultra Light Shader</h2>
-  <p>Shader ringan cocok untuk HP kentang</p>
+<div class="container">
 
-  <a href="shader-ultralight.mcpack" download>
-    <button>Download</button>
-  </a>
+  <div class="card">
+    <img src="preview.jpg" alt="Shader Preview">
+    <h2>Cool Shader</h2>
+    <p>Shader ringan, cocok survival. MC Bedrock 1.21+</p>
+    <a class="download" href="cool_shader.mcpack" download>
+      Download
+    </a>
+  </div>
+
 </div>
 
 </body>
